@@ -1,0 +1,33 @@
+{
+    "name": "bantenprov/rumah-layak-huni",
+    "description": "Panjang Jalan Provinsi Dalam Kondisi Baik Menurut Kabupaten/Kota",
+    "type": "library",
+    "homepage": "https://github.com/bantenprov/rumah-layak-huni",
+    "authors": [
+        {
+        "name": "bantenprov",
+        "email": "developer.bantenprov@gmail.com",
+        "role": "developer"
+    }
+    ],
+    "license": "MIT",
+    "support": {
+      "source": "https://github.com/bantenprov/rumah-layak-huni,",
+      "issues": "https://github.com/bantenprov/rumah-layak-huni/issues",
+      "wiki": "https://github.com/bantenprov/rumah-layak-huni/wiki"
+    },
+    "require": {
+        "php": ">=5.6.4",
+        "laravel/framework": "5.4.*",
+        "laravel/tinker": "~1.0"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers/helpers.php"
+        ],
+        "psr-4": {
+            "Bantenprov\\RumahLayakHuni\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
